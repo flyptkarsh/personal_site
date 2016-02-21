@@ -29,7 +29,7 @@ gem 'spring',        group: :development
 gem "slim-rails"
 
 # debugging
-gem 'pry-rails', :group => :development
+gem 'pry-rails', group: :development
 
 # html editor
 gem 'bootstrap-wysihtml5-rails'
@@ -37,8 +37,8 @@ gem 'bootstrap-wysihtml5-rails'
 # form builder
 gem 'simple_form'
 
-# bower
-gem "bower-rails", "~> 0.10.0"
+# for deploying to heroku
+gem 'rails_12factor', group: :production
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
