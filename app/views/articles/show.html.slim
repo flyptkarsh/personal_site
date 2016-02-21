@@ -1,0 +1,3 @@
+h1 = @article.title
+= image_tag( @article.image) unless @article.image.blank? 
+= simple_format(@article.content)

@@ -1,0 +1,28 @@
+{
+  "name": "PersonalSite",
+  "version": "0.0.0",
+  "authors": [
+    "flyptkarsh <ptkarsh@gmail.com>"
+  ],
+  "license": "y",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "vendor/assets/components"
+  ],
+  "dependencies": {
+    "jQuery": "~2.2.0",
+    "filepicker-js-bower": "filepicker-js#^2.4.3"
+  },
+  "description": "My Personal Blog",
+  "main": "y",
+  "moduleType": [],
+  "keywords": [
+    "y"
+  ],
+  "homepage": "y",
+  "private": true
+}
