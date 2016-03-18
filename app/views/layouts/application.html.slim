@@ -10,6 +10,7 @@ html lang="en"
     title Tech & Travel
     /! Bootstrap Core CSS
     = stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+    = stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
     /! Custom CSS
     = stylesheet_link_tag 'application', media: 'all'
     /! Custom Fonts
@@ -62,20 +63,21 @@ html lang="en"
           .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
             ul.list-inline.text-center
               li
-                a href="#" 
+                a href="https://www.linkedin.com/in/patrickarsh" 
                   span.fa-stack.fa-lg
                     i.fa.fa-circle.fa-stack-2x
-                    i.fa.fa-twitter.fa-stack-1x.fa-inverse
+                    i.fa.fa-linkedin.fa-stack-1x.fa-inverse
               li
-                a href="#" 
+                a href="https://www.facebook.com/ptkarsh" 
                   span.fa-stack.fa-lg
                     i.fa.fa-circle.fa-stack-2x
                     i.fa.fa-facebook.fa-stack-1x.fa-inverse
               li
-                a href="#" 
+                a href="https://github.com/flyptkarsh" 
                   span.fa-stack.fa-lg
                     i.fa.fa-circle.fa-stack-2x
                     i.fa.fa-github.fa-stack-1x.fa-inverse
             p.copyright.text-muted Copyright &copy; Patrick Karsh 2016
             
 = javascript_include_tag 'application.js'
+= javascript_include_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'

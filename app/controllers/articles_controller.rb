@@ -20,6 +20,7 @@ class ArticlesController < ApplicationController
 
   # GET /articles/1/edit
   def edit
+    @password = ( params[:password] ==  ENV["PASSWORD"] )
   end
 
   # POST /articles
