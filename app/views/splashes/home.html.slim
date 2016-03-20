@@ -1,11 +1,11 @@
 div ng-controller='ArticleCtrl'
-  .post-preview dir-paginate="article in articles | itemsPerPage: 10"
+  .post-preview dir-paginate="article in articles | itemsPerPage: 5"
     a ng-href="{{article.url}}" 
       h2.post-title
         | {{article.title}}
       p.post-meta
         | {{ article.updated_at }}
-        / .strftime("Created on %A %B %-m, %Y")  
+        
   hr
 
-/ = dir-pagination-controls
+dir-pagination-controls
