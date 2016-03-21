@@ -9,15 +9,11 @@ html lang="en"
     = stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic' 
 
     = yield :head
-    title Tech & Travel
-    meta charset="utf-8" 
-    meta content="IE=edge" http-equiv="X-UA-Compatible" 
-    meta content="width=device-width, initial-scale=1" name="viewport" 
-    meta content="Full-Stack Rails and JS Developer" name="description" 
-    meta property="image" content="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASsAAAAJGRjZWIzZmM0LTJiNmUtNDdlNS1iYTFkLWU2NjczM2ViZjhlMQ.jpg"
-    meta property="og:image" content="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASsAAAAJGRjZWIzZmM0LTJiNmUtNDdlNS1iYTFkLWU2NjczM2ViZjhlMQ.jpg"
-    meta property="og:description" content="Tech, Travel, Work and Life"
-    meta content="Patrick Karsh" name="author" 
+    = metamagic
+    = metamagic site: "Patrick Karsh", title: ["Tech, Travel, Work and Life", :site], separator: " — ", og: { author: "Patrick Karsh", 
+                 title: "Tech, Travel, Work and Life", 
+                 image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASsAAAAJGRjZWIzZmM0LTJiNmUtNDdlNS1iYTFkLWU2NjczM2ViZjhlMQ.jpg",     
+               }
     = stylesheet_link_tag 'application', media: 'all'
   body
     /! Navigation

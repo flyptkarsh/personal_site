@@ -42,6 +42,8 @@ gem 'rails_12factor', group: :production
 
 gem 'sitemap_generator'
 
+gem 'metamagic'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
