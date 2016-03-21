@@ -10,8 +10,11 @@ html lang="en"
 
     = yield :head
     = metamagic
-    = metamagic site: "Patrick Karsh", title: ["Tech, Travel, Work and Life", :site], separator: " — ", og: { author: "Patrick Karsh", 
+    = metamagic site: "Patrick Karsh", title: ["Tech, Travel, Work and Life", :site], separator: " — ",
+                desciprtion:  "Tech, Travel, Work and Life, The Musings of Patrick Karsh",
+                og: { author: "Patrick Karsh", 
                  title: "Tech, Travel, Work and Life", 
+                 desciprtion:  "Tech, Travel, Work and Life, The Musings of Patrick Karsh", 
                  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASsAAAAJGRjZWIzZmM0LTJiNmUtNDdlNS1iYTFkLWU2NjczM2ViZjhlMQ.jpg",     
                }
     = stylesheet_link_tag 'application', media: 'all'
