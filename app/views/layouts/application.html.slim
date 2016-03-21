@@ -4,7 +4,7 @@ html lang="en"
   head
     
     = favicon_link_tag 'plane.png' , type: 'image/png'
-    = stylesheet_link_tag 'application', media: 'all'
+
     = stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
     = stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
 
@@ -16,7 +16,7 @@ html lang="en"
     meta content="" name="author" 
     = yield :head
     title Tech & Travel
-    
+    = stylesheet_link_tag 'application', media: 'all'
   body
     /! Navigation
     nav.navbar.navbar-default.navbar-custom.navbar-fixed-top  
@@ -29,7 +29,7 @@ html lang="en"
             span.icon-bar
             span.icon-bar
           a.navbar-brand href="index.html" 
-        /! Collect the nav links, forms, and other content for toggling
+        /g
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           ul.nav.navbar-nav.navbar-right
             li
@@ -38,11 +38,8 @@ html lang="en"
               a href="/contact"  Contact
             li
               a href="/about"  About
-        /! /.navbar-collapse
-      /! /.container
-    /! Page Header
-    /! Set your background image for this header on the line below.
-    header.intro-header style=("background-image: url('header.jpg')") 
+
+    header.intro-header 
       .container
         .row
           .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
