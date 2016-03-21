@@ -2,7 +2,7 @@
 doctype html
 html lang="en" 
   head
-    
+    = stylesheet_link_tag 'application', media: 'all'
     = favicon_link_tag 'plane.png' , type: 'image/png'
 
     = stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
@@ -21,7 +21,6 @@ html lang="en"
     /! Navigation
     nav.navbar.navbar-default.navbar-custom.navbar-fixed-top  
       .container-fluid
-        /! Brand and toggle get grouped for better mobile display
         .navbar-header.page-scroll
           button.navbar-toggle data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button" 
             span.sr-only Toggle navigation
@@ -53,7 +52,7 @@ html lang="en"
         .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
           = yield 
           
-    hr/
+    hr
     /! Footer
     footer
       .container
