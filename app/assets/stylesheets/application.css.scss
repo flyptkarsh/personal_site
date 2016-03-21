@@ -151,7 +151,7 @@ hr.small {
   }
 }
 .intro-header {
-
+  background-image: url(asset-path('header.jpg')) !important;
   background-color: #808080;
   background: no-repeat center center;
   background-attachment: scroll;
