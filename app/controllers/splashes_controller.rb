@@ -8,8 +8,12 @@ class SplashesController < ApplicationController
 
   end
 
+  def profile 
+
+  end
+
   def home
 
-  end 
+  end
 
 end

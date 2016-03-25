@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   match 'home', to: 'splashes#home', via: [:get]
   match 'about', to: 'splashes#about', via: [:get]
   match 'contact', to: 'splashes#contact', via: [:get]
+  match 'profile', to: 'splashes#profile', via: [:get]
   resources :articles
 
 end
