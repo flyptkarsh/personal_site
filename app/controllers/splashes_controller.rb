@@ -8,12 +8,19 @@ class SplashesController < ApplicationController
 
   end
 
-  def profile 
+  def profile
 
   end
 
   def home
 
+  end
+  def download_pdf
+    send_file(
+      "#{Rails.root}/public/patrickarsh.pdf",
+      filename: "patrickarsh.pdf",
+      type: "application/pdf"
+    )
   end
 
 end
