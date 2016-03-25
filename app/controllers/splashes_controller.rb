@@ -15,7 +15,7 @@ class SplashesController < ApplicationController
   def home
 
   end
-  def download_pdf
+  def download_cv
     send_file(
       "#{Rails.root}/public/patrickarsh.pdf",
       filename: "patrickarsh.pdf",

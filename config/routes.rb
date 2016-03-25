@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   match 'about', to: 'splashes#about', via: [:get]
   match 'contact', to: 'splashes#contact', via: [:get]
   match 'profile', to: 'splashes#profile', via: [:get]
-  get "/download_resume"
+  match 'download_cv', to: 'splashes#download_cv', via: [:get]
   resources :articles
 
 end
