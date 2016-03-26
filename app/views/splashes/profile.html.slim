@@ -1,9 +1,37 @@
 
 h1 Professional Summary 
-p I am a full-stack rails and javascript developer currently based in New York, but open to moving back to my native California. For the past two years, I have been working with Ruby on Rails, javascript, and Angular JS at a very early stage startup. I also teach a coding class to inner-city high school students who recently immigrated to the United States in my spare time. Before getting into programing full time I was a high school teacher and a logistician in the US Navy. 
+p I am a full-stack Ruby on Rails and Angular/Javascript developer currently based in New York. I am open to moving back to my native California. For almost two years, I have been working with Ruby on Rails, Javascript, and Angular JS at a very early stage startup. I also teach a coding class to inner-city high school students who recently immigrated to the United States in my spare time. Before getting into programing full time I was a high school teacher and a logistician in the US Navy. 
 
 p 
-  | I have been working for almost two years as a developer at a small travel tech startup in Brooklyn called Tripwing. We made an itinerary builder product for travel agents and a database of multi-day trips like safaris that had an AngularJS based consumer facing interface to search. This consumer-facing interface was white-labeled for specific companies and added to their sites. A working example can be found here 
-  a herf="http://www.ustoa.tripwing.com/" Tripwing White-Labeled Marketplace
+  | I have been working for almost two years as a developer at a small travel tech startup in Brooklyn called Tripwing. We made an itinerary builder product for travel agents and a database of multi-day trips like safaris that had an AngularJS based consumer facing interface to search. This consumer-facing interface was white-labeled for specific companies and added to their sites. 
+
+#myCarousel.carousel.slide data-ride="carousel" style="height: 400px;"
+  /! Indicators
+  ol.carousel-indicators
+    li.active data-slide-to="0" data-target="#myCarousel" 
+    li data-slide-to="1" data-target="#myCarousel" 
+    li data-slide-to="2" data-target="#myCarousel" 
+    li data-slide-to="3" data-target="#myCarousel" 
+  /! Wrapper for slides
+  .carousel-inner role="listbox" 
+    .item.active
+      = image_tag "tripwing_splash.png", width: "100%"
+    .item
+      = image_tag "tripwing_search.png", width: "100%"
+    .item
+      = image_tag "tripwing_reviews.png", width: "100%"
+    .item
+      = image_tag "tripwing_search_dropdown.png", width: "100%"
+      
+  /! Left and right controls
+  a.left.carousel-control data-slide="prev" href="#myCarousel" role="button" 
+    span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
+    span.sr-only Previous
+  a.right.carousel-control data-slide="next" href="#myCarousel" role="button" 
+    span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
+    span.sr-only Next
+
+
+
 
 p I am open to a wide variety of roles. I have definitely had the small start-up experience and would not mind having that again. Having the resources and mentorship that a larger company can provide also sounds appealing. My personal interests include travel, flying, airlines, and politics. 
