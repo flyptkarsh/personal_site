@@ -1,19 +1,66 @@
 h1 Personal Summary
-p I am a native Californian. I grew up in Southern California. After high school, I joined the Navy to see the world. I spent 4 years on a nuclear submarine crisscrossing the Pacific Ocean. On the submarine, I worked as a logistician and sonar operator.
-= image_tag "sub.jpg", width: "100%" , class: 'pull-right'
+p 
+  | I am a native Californian. I grew up in Southern California. After high school, I joined the Navy to see the world. I spent 4 years on a 
+  = link_to " nuclear submarine" , "https://en.wikipedia.org/wiki/USS_Topeka_(SSN-754)", target: :blank
+  |   crisscrossing the Pacific Ocean. On the submarine, I worked as a 
+  = link_to " logistician " , "https://en.wikipedia.org/wiki/Logistics_specialist", target: :blank
+  |  and 
+  = link_to " sonar operator." , "https://en.wikipedia.org/wiki/Sonar", target: :blank
+
+
+figure.figure
+  = image_tag "sub.jpg", class: "figure-img img-fluid", width: "100%"
+  figcaption.figure-caption.text-xs-right 
+    i 
+      = link_to "The USS Topeka, like a WeWork that goes underwater" , "https://en.wikipedia.org/wiki/USS_Topeka_(SSN-754)", target: :blank
+
 p After the Navy, I attended the University of California, Berkeley. During college, I studied abroad twice. Once in Salamanca, Spain and once in Berlin. I also backpacked around the world.
-= image_tag "berkeley.jpg", width: "100%" , class: 'pull-left' 
+
+figure.figure
+  = image_tag "berkeley.jpg", class: "figure-img img-fluid", width: "100%"
+  figcaption.figure-caption.text-xs-right 
+    i Go Bears!
+
 p In 2013, I graduated from Cal and moved to New York. Just in time to experience two Polar Vortexes in a row. In New York, I taught at an inner-city high school for less than a year, decided it was not my thing and learned how to code. My first substantial experience with coding had been with R doing statistics research at Berkeley. I have a background in formal logic and philosophy which really has helped me in coding. I received a fellowship from Microsoft and HirePourpose to attend General Assembly's Web Development Immersive in the summer of 2014.
-= image_tag "nyc.jpg", width: "100%" , class: 'pull-left' 
-p After General Assembly, I became the first developer at a small start-up in Dumbo called Tripwing. Tripwing was trying to sell custom software to travel agents and tour operators. I completed a bunch of projects in Angular.js and Ruby on Rails. Over a year and a half, I on-boarded three full-time developers and trained three times as many interns. Unfortunately, Tripwing was not able to ever become a viable business. Travel agents are a rapidly shrinking group, that is not particularly keen on adopting new technology, and other niches we explored had bigger and more established competitors. It is currently in the process of shutting down I am looking for something new at the moment.
+figure.figure
+  = image_tag "nyc.jpg", class: "figure-img img-fluid", width: "100%"
+  figcaption.figure-caption.text-xs-right 
+    i Snow is only cool the first few times apprently 
+p After General Assembly, I became the first developer at a small start-up in Dumbo called Tripwing. Tripwing was trying to sell custom software to travel agents and tour operators. I completed a bunch of projects in AngularJS and Ruby on Rails. Over a year and a half, I on-boarded three full-time developers and trained three times as many interns. Unfortunately, Tripwing was not able to ever become a viable business. Travel agents are a rapidly shrinking group, that is not particularly keen on adopting new technology, and other niches we explored had bigger and more established competitors. It is currently in the process of shutting down I am looking for something new at the moment.
 p At the same time, I started at Tripwing, I began teaching a coding class a few times a week to High School students as a volunteer at ScriptEd. Although I did not enjoy teaching professionally, I really enjoy teaching kids to code. The kids in my class are really motivated, and love to learn. The first school year, I taught at a high school in East Harlem. This school year, I teach in high school in Downtown Brooklyn.
-= image_tag "egypt.jpg", width: "100%" , class: 'pull-right'
+figure.figure
+  = image_tag "egypt.jpg", class: "figure-img img-fluid", width: "100%"
+  figcaption.figure-caption.text-xs-right 
+    i We did a consent workshop together
 p Traveling is a big passion of my life. I have been to 40 countries. My favorite places in the world are Rio de Janeiro, Paris, and Madrid. Nothing recharges my batteries like a week in an exotic locale.
-= image_tag "rio.jpg", width: "100%" , class: 'pull-right'
+
+figure.figure
+  = image_tag "rio.jpg", class: "figure-img img-fluid", width: "100%"
+  figcaption.figure-caption.text-xs-right 
+    i On top of the world in Rio de Janeiro
 p I am also a commercial pilot in my spare time. I have an arrhythmia that keeps me from doing it professionally. I learned to fly on a Cessna 172 and have flown Pipers and Beechcrafts.
-= image_tag "flying.jpg", width: "100%" , class: 'pull-left'
+
+figure.figure
+  = image_tag "flying.jpg", class: "figure-img img-fluid", width: "100%"
+  figcaption.figure-caption.text-xs-right 
+    i Flying over the Grand Canyon 
+
 p On a daily basis when I am not coding I am a bit of fitness nut. I usually get up a 5am to get to Equinox when it opens at 5:30. I usually try to finish as much of the New York Times crossword on the stair climber as I possibly can. I am "Wednesday good" at the crossword. It still takes me a bit of time, and a little cheating, to finish Sunday's crossword.
 = image_tag "crossword.jpg", width: "100%" , class: 'pull-left'
-p I am also an avid reader. I finished two volumes of Robert Caro's Lyndon Johnson in the last year. The Power Broker by Robert Caro is my favorite book. Close seconds include Meditations by Marcus Aurelius, Crime and Punishment by Dostoyevsky, The Talented Mr. Ripley by Patrica Highsmith, and Empire of the Sun and High Rise by JG Ballard.
-
+p 
+  | I am also an avid reader. I finished two volumes of 
+  = link_to " Robert Caro's Lyndon Johnson", "http://www.amazon.com/Path-Power-Years-Lyndon-Johnson/dp/0679729453", target: :blank
+  |   in the last year. 
+  = link_to " The Power Broker by Robert Caro ", "http://www.amazon.com/The-Power-Broker-Robert-Moses/dp/0394720245", target: :blank
+  | is my favorite book.  Close seconds include 
+  = link_to  " Meditations by Marcus Aurelius", "http://www.amazon.com/Meditations-Penguin-Classics-Hardcover-Aurelius/dp/0141395869", target: :blank
+  | ,
+  = link_to " Crime and Punishment by Dostoyevsky", "http://www.amazon.com/Punishment-Vintage-Classics-Dostoevsky-Paperback/dp/B00BP0NLNM", target: :blank
+  | ,
+  = link_to " The Talented Mr. Ripley by Patrica Highsmith", "http://www.amazon.com/Talented-Mr-Ripley-Patricia-Highsmith/dp/0393332144", target: :blank
+  | ,
+  = link_to " and Empire of the Sun ", "http://www.amazon.com/Empire-Sun-J-G-Ballard/dp/0743265238", target: :blank
+  |  and 
+  = link_to "High Rise by J.G. Ballard", "http://www.amazon.com/High-Rise-Novel-J-G-Ballard/dp/0871404028", target: :blank
+  | .
   
